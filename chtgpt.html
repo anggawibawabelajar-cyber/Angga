@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BOSQUE Angga | Premium Profile</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--accent:#ff8a57;--bg:#070707;--card:#111;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Poppins,sans-serif;background:#080808;color:#fff;overflow-x:hidden}
+body:before{content:'';position:fixed;inset:0;background:radial-gradient(circle at top right,rgba(255,138,87,.15),transparent 35%),radial-gradient(circle at bottom left,rgba(255,138,87,.1),transparent 30%);z-index:-1}
+nav{position:fixed;top:0;width:100%;padding:20px 6%;display:flex;justify-content:space-between;background:rgba(0,0,0,.7);backdrop-filter:blur(10px);z-index:100}
+.logo{font-family:Orbitron,sans-serif;color:var(--accent);font-weight:800}
+.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center;padding:120px 6% 60px}
+.tag{color:var(--accent);border:1px solid var(--accent);padding:10px 16px;border-radius:30px;display:inline-block}
+h1{font-family:Orbitron,sans-serif;font-size:clamp(3rem,8vw,7rem);line-height:.9;margin:20px 0}
+h1 span{color:var(--accent)}
+.desc{color:#ddd;line-height:1.8}
+.photo{position:relative}
+.photo img{width:100%;height:760px;object-fit:cover;border-radius:28px;box-shadow:0 25px 80px rgba(0,0,0,.7)}
+.badge{position:absolute;bottom:25px;right:-10px;background:#151515cc;padding:18px;border-radius:18px;border:1px solid #333}
+.stats,.cards{display:grid;gap:20px}
+.stats{grid-template-columns:repeat(3,1fr);margin-top:30px}
+.stat,.card{background:#111;padding:20px;border-radius:20px}
+section{padding:70px 6%}
+.title{font-family:Orbitron,sans-serif;font-size:2.5rem;margin-bottom:25px}
+.cards{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card h3{color:var(--accent);margin-bottom:10px}
+footer{text-align:center;padding:50px;color:#aaa}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.photo img{height:500px}.stats{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav><div class="logo">BOSQUE ANGGA</div><div>Technology × Bali Culture</div></nav>
+
+<div class="hero">
+<div>
+<div class="tag">PERSONAL PROFILE</div>
+<h1>MADE ANGGA<br><span>WIBAWA PUTRA</span></h1>
+<p class="desc">Profil modern dengan nuansa teknologi futuristik dan sentuhan budaya Bali yang terinspirasi dari desain referensi premium.</p>
+<div class="stats">
+<div class="stat"><b>17 Juli 2007</b><br>Lahir</div>
+<div class="stat"><b>CEO</b><br>Mantan CEO Tambang Nikel</div>
+<div class="stat"><b>Bali</b><br>Musik Tradisional</div>
+</div>
+</div>
+<div class="photo">
+<img src="image.png" alt="Foto Profil">
+<div class="badge"><b>BOSQUE Angga</b><br>Leadership • Technology • Balinese Music</div>
+</div>
+</div>
+
+<section>
+<h2 class="title">Tentang Saya</h2>
+<div class="cards">
+<div class="card"><h3>Nama</h3><p>Made Angga Wibawa Putra</p></div>
+<div class="card"><h3>Panggilan</h3><p>BOSQUE Angga</p></div>
+<div class="card"><h3>Hobi Akademik</h3><p>Membaca, Menulis, Mendengarkan</p></div>
+<div class="card"><h3>Hobi Non Akademik</h3><p>Bermain Alat Musik Bali</p></div>
+</div>
+</section>
+
+<section>
+<h2 class="title">Pendidikan</h2>
+<div class="cards">
+<div class="card">SD Saraswati 2 Denpasar</div>
+<div class="card">SMP Negeri 6 Denpasar</div>
+<div class="card">SMA Negeri 5 Denpasar</div>
+<div class="card">Universitas Mahasaraswati</div>
+</div>
+</section>
+
+<section>
+<h2 class="title">Keahlian & Karir</h2>
+<div class="cards">
+<div class="card"><h3>Keahlian</h3><p>Bermain Alat Musik Balinese</p></div>
+<div class="card"><h3>Karir</h3><p>Mantan CEO Tambang Nikel</p></div>
+</div>
+</section>
+
+<footer>Modern Technology Meets Balinese Culture — BOSQUE Angga</footer>
+</body>
+</html>
